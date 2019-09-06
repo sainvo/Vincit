@@ -1,0 +1,8 @@
+{"timestamp": "2019-08-21 15:00:01", "message_type": "ping", "destination": 1, "sender": 2, "payload": "PING"}
+{"timestamp": "2019-08-21 15:00:02", "message_type": "pong", "destination": 2, "sender": 1, "payload": "PONG"}
+{"timestamp": "2019-08-21 15:00:03", "message_type": "container", "destination": 1, "sender": 2, "payload": "ping 3 4 PING|||ping 5 6 PING|||ping 7 8 PING"}
+{"timestamp": "2019-08-21 15:00:03", "message_type": "ping", "destination": 1, "sender": 2, "payload": "PING"}
+{"timestamp": "2019-08-21 15:00:04", "message_type": "pong", "destination": 2, "sender": 1, "payload": "PONG"}
+{"timestamp": "2019-08-21 15:00:06", "message_type": "container", "destination": 2, "sender": 1, "payload": "pong 4 3 PONG|||pong 6 5 PONG|||pong 8 7 PONG"}
+{"timestamp": "2019-08-21 15:00:07", "message_type": "ping", "destination": 1, "sender": 2, "payload": "PING"}
+{"timestamp": "2019-08-21 15:00:08", "message_type": "pong", "destination": 2, "sender": 1, "payload": "PONG"}

@@ -1,0 +1,33 @@
+test-warnings: true
+
+inherits:
+  - full_pep8
+  - strictness_none
+
+ignore-paths:
+  - build
+  - dist
+  - venv
+
+mypy:
+    run: true
+
+pep8:
+  options:
+    max-line-length: 120
+  disable:
+    - E501 # line too long
+
+pyflakes:
+    disable:
+    - F821 # undefined name; pylint does a better job
+
+pylint:
+  options:
+    max-args: 10
+    max-line-length: 120
+
+  disable:
+    - bad-continuation
+    - too-few-public-methods
+    - no-self-use

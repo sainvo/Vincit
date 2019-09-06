@@ -1,0 +1,9 @@
+*.md            text
+*.ini           text
+*.log           text
+*.py            text
+*.yaml          text
+
+.coveragerc     text
+.gitattributes  text
+.gitignore      text

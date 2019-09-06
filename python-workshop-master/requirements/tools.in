@@ -1,0 +1,5 @@
+mypy
+prospector
+pytest
+pytest-coverage
+pytest-mock

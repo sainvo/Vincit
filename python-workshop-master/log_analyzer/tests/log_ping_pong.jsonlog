@@ -1,0 +1,4 @@
+{"timestamp": "2019-08-19 14:29:24", "message_type": "ping", "destination": 1, "sender": 2, "payload": "PING"}
+{"timestamp": "2019-08-19 14:29:25", "message_type": "pong", "destination": 2, "sender": 1, "payload": "PONG"}
+{"timestamp": "2019-08-19 14:30:24", "message_type": "ping", "destination": 1, "sender": 3, "payload": "PING"}
+{"timestamp": "2019-08-19 14:30:25", "message_type": "pong", "destination": 3, "sender": 1, "payload": "PONG"}
