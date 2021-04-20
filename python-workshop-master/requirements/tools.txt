@@ -4,45 +4,110 @@
 #
 #    pip-compile --output-file=requirements/tools.txt requirements/tools.in
 #
-astroid==2.2.5            # via prospector, pylint, pylint-celery, pylint-flask, requirements-detector
-atomicwrites==1.3.0       # via pytest
-attrs==19.1.0             # via packaging, pytest
-colorama==0.4.1           # via pylint, pytest
-coverage==4.5.4           # via pytest-cov
-dodgy==0.1.9              # via prospector
-importlib-metadata==0.20  # via pluggy, pytest
-isort==4.3.21             # via pylint
-lazy-object-proxy==1.4.2  # via astroid
-mccabe==0.6.1             # via prospector, pylint
-more-itertools==7.2.0     # via pytest, zipp
-mypy-extensions==0.4.1    # via mypy
+astroid==2.2.5
+    # via
+    #   prospector
+    #   pylint
+    #   pylint-celery
+    #   pylint-flask
+    #   requirements-detector
+atomicwrites==1.3.0
+    # via pytest
+attrs==19.1.0
+    # via
+    #   packaging
+    #   pytest
+coverage==4.5.4
+    # via pytest-cov
+dodgy==0.1.9
+    # via prospector
+importlib-metadata==0.20
+    # via pluggy
+isort==4.3.21
+    # via pylint
+lazy-object-proxy==1.4.2
+    # via astroid
+mccabe==0.6.1
+    # via
+    #   prospector
+    #   pylint
+more-itertools==7.2.0
+    # via pytest
+mypy-extensions==0.4.1
+    # via mypy
 mypy==0.720
-packaging==19.1           # via pytest
-pep8-naming==0.4.1        # via prospector
-pluggy==0.12.0            # via pytest
+    # via -r tools.in
+packaging==19.1
+    # via pytest
+pep8-naming==0.4.1
+    # via prospector
+pluggy==0.12.0
+    # via pytest
 prospector==1.1.7
-py==1.8.0                 # via pytest
-pycodestyle==2.4.0        # via prospector
-pydocstyle==4.0.1         # via prospector
-pyflakes==1.6.0           # via prospector
-pylint-celery==0.3        # via prospector
-pylint-django==2.0.10     # via prospector
-pylint-flask==0.6         # via prospector
-pylint-plugin-utils==0.5  # via prospector, pylint-celery, pylint-django, pylint-flask
-pylint==2.3.1             # via prospector, pylint-celery, pylint-django, pylint-flask, pylint-plugin-utils
-pyparsing==2.4.2          # via packaging
-pytest-cov==2.7.1         # via pytest-cover
-pytest-cover==3.0.0       # via pytest-coverage
+    # via -r tools.in
+py==1.10.0
+    # via pytest
+pycodestyle==2.4.0
+    # via prospector
+pydocstyle==4.0.1
+    # via prospector
+pyflakes==1.6.0
+    # via prospector
+pylint-celery==0.3
+    # via prospector
+pylint-django==2.0.10
+    # via prospector
+pylint-flask==0.6
+    # via prospector
+pylint-plugin-utils==0.5
+    # via
+    #   prospector
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-flask
+pylint==2.3.1
+    # via
+    #   prospector
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-flask
+    #   pylint-plugin-utils
+pyparsing==2.4.2
+    # via packaging
+pytest-cov==2.7.1
+    # via pytest-cover
+pytest-cover==3.0.0
+    # via pytest-coverage
 pytest-coverage==0.0
+    # via -r tools.in
 pytest-mock==1.10.4
+    # via -r tools.in
 pytest==5.1.2
-pyyaml==5.1.2             # via prospector
-requirements-detector==0.6  # via prospector
-setoptconf==0.2.0         # via prospector
-six==1.12.0               # via astroid, packaging
-snowballstemmer==1.9.1    # via pydocstyle
-typed-ast==1.4.0          # via astroid, mypy
-typing-extensions==3.7.4  # via mypy
-wcwidth==0.1.7            # via pytest
-wrapt==1.11.2             # via astroid
-zipp==0.6.0               # via importlib-metadata
+    # via
+    #   -r tools.in
+    #   pytest-cov
+    #   pytest-mock
+pyyaml==5.1.2
+    # via prospector
+requirements-detector==0.6
+    # via prospector
+setoptconf==0.2.0
+    # via prospector
+six==1.12.0
+    # via
+    #   astroid
+    #   packaging
+snowballstemmer==1.9.1
+    # via pydocstyle
+typed-ast==1.4.0
+    # via
+    #   astroid
+    #   mypy
+typing-extensions==3.7.4
+    # via mypy
+wcwidth==0.1.7
+    # via pytest
+wrapt==1.11.2
+    # via astroid
+zipp==0.6.0
+    # via importlib-metadata
